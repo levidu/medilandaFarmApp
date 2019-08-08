@@ -1,0 +1,101 @@
+@import models.CountRecord
+@(countoutList: List[CountRecord])
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="@routes.Assets.versioned("css/bootstrap.min.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("NumPad-master/external/jquery-ui/jquery-ui.css")">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="@routes.Assets.versioned("js/bootstrap.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/external/jquery/jquery.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/external/jquery-ui/jquery-ui.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.extension.js")"></script>
+        <script>
+        $(function(){
+            $("#egg_count").pinpad({
+                digitOnly: true
+            });
+        });
+        $(function(){
+            $("#damage_count").pinpad({
+                digitOnly: true
+            });
+        });
+        $(function(){
+            $("#dirty_count").pinpad({
+                digitOnly: true
+            });
+        });
+        $(function(){
+            $("#damaged_on_counter").pinpad( {
+                digitOnly: true
+            });
+        });
+    </script>    
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">COUNT | Edit</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-auto">
+            	<table class="table table-hover">
+            		<thead>
+            			<th scope="col">UID</th>
+            			<th scope="col">CAGE</th>
+            			<th scope="col">USER</th>
+            			<th scope="col">EGG COUNT</th>
+            			<th scope="col">DAMAGE COUNT</th>
+            			<th scope="col">DIRTY EGG COUNT</th>
+            			<th scope="col">DAMAGED ON COUNTER</th>
+            			<th scope="col">DATE-TIME</th>
+            		</thead>
+            		<tbody>
+            			@for(countoutRow<-countoutList) {
+            			<tr sccope="row">
+            				<td>@countoutRow.getUid</td>
+            				<td>@countoutRow.getCage</td>
+            				<td>@countoutRow.getUser</td>
+            				<td>@countoutRow.getEgg_count</td>
+            				<td>@countoutRow.getDamage_count</td>
+            				<td>@countoutRow.getDirty_count</td>
+            				<td>@countoutRow.getDamaged_on_counter</td>
+            				<td>@countoutRow.getDate_time</td>
+            				<td>
+            					<a href="@routes.HomeController.delete_countout_row(countoutRow.getDate_time)">
+            					<i class="glyphicon glyphicon-trash"></i>
+            					</a>
+            				</td>
+            				
+            			</tr>
+            			
+            			}
+    
+            		</tbody>
+            		<tfoot>
+            			<tr scope="row">
+            			</tr>
+            			
+            		</tfoot>
+                
+            </div>
+        </center>
+    </body>
+</html>

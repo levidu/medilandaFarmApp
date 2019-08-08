@@ -1,0 +1,90 @@
+@(countoutRecordForm: Form[CountRecord])
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="@routes.Assets.versioned("css/bootstrap_count.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.css")">
+        <script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="@routes.Assets.versioned("NumPad-master/external/jquery-ui/jquery-ui.css")">
+        <script src="@routes.Assets.versioned("js/bootstrap_count.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/external/jquery/jquery.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/external/jquery-ui/jquery-ui.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.js")"></script>
+        <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.extension.js")"></script>
+        <script>
+        $( function () {
+            $("#egg_count").pinpad( {
+                digitOnly: true
+            } );
+        } );
+        $( function () {
+            $("#damage_count").pinpad( {
+                digitOnly: true
+            } );
+        } );
+        $( function () {
+            $("#dirty_count").pinpad( {
+                digitOnly: true
+            } );
+        } );
+        $( function () {
+            $("#damaged_on_counter").pinpad( {
+                digitOnly: true
+            } );
+        } );
+    </script>    
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">COUNT</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <center>
+            <br>
+            <div class="container">
+                <form action="@routes.HomeController.count_out_save()" method="POST">
+                    <div class="btn-group btn-group-justified" data-toggle="buttons">
+					<label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user1" required>User 1
+					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user2">User 2
+					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user3">User 3
+					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user4">User 4
+					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user5">User 5
+					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
+						name="user" value="user6">User 6
+					</label>
+				</div>
+                    <br>
+                    <br>
+                    <input type="text" class="form-control" placeholder="EGG COUNT" name="egg_count" id="egg_count" required>
+                    <input type="text" class="form-control" placeholder="DAMAGE COUNT" name="damage_count" id="damage_count" required>
+                    <input type="text" class="form-control" placeholder="DIRTY COUNT" name="dirty_count" id="dirty_count" required>
+                    <input type="text" class="form-control" placeholder="DAMAGED BY USER" name="damaged_on_counter" id="damaged_on_counter" required>
+                    <br>
+                    <br>
+                    <input type="text" class="form-control" placeholder="UID" name="uid" required>
+                    <br>
+                    <input type="text" class="form-control" placeholder="CAGE" name="cage" required>
+                    <br>
+                    <input type="text" class="form-control" placeholder="TIME" name="date_time" required>
+                    <br>
+                    <br>
+                    <input type="submit" class="btn btn-default" value="Submit">
+                </form>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+update
+ update
+sbt compile
+exit
+playGenerateSecret
+clean
+build
+built
+clean
+assembly
+compile
+assembly
+clean
+sbt dist
+dist
