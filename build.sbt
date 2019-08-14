@@ -1,7 +1,7 @@
 name := """medilanda_app"""
 organization := "lk.medilandafarms"
 
-version := "1.1-SNAPSHOT"
+version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava, PlayEbean)
 

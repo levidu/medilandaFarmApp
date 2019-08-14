@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/levi/Downloads/medilandaFarmApp/conf/routes
-// @DATE:Wed Aug 14 15:09:00 IST 2019
+// @DATE:Wed Aug 14 15:22:47 IST 2019
 
 import play.api.mvc.Call
 
