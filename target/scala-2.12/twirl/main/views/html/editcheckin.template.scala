@@ -42,7 +42,7 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand">CHECKIN | Edit</a>
+                    <a class="navbar-brand">CHECKIN | Delete</a>
                 </div>
                 <ul class="nav navbar-nav">
                     <li>
@@ -106,10 +106,10 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
 
               /*
                   -- GENERATED --
-                  DATE: Thu Aug 08 03:40:34 IST 2019
-                  SOURCE: /Users/levi/Downloads/medilandaApp/play-java-seed/app/views/editcheckin.scala.html
-                  HASH: 2344d184e2e005df4cb48caa44538dbab265943b
-                  MATRIX: 651->1|1002->30|1130->65|1315->224|1329->230|1399->280|1570->425|1584->431|1652->479|2574->1374|2618->1402|2658->1404|2702->1420|2768->1459|2787->1469|2815->1476|2869->1503|2888->1513|2917->1521|2971->1548|2990->1558|3024->1571|3105->1625|3120->1631|3200->1690|3407->1866|3455->1886
+                  DATE: Wed Aug 14 11:32:45 IST 2019
+                  SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/editcheckin.scala.html
+                  HASH: b8a9942a89cb448f76072e82fc23a35dc1fb2f68
+                  MATRIX: 651->1|1002->30|1130->65|1315->224|1329->230|1399->280|1570->425|1584->431|1652->479|2576->1376|2620->1404|2660->1406|2704->1422|2770->1461|2789->1471|2817->1478|2871->1505|2890->1515|2919->1523|2973->1550|2992->1560|3026->1573|3107->1627|3122->1633|3202->1692|3409->1868|3457->1888
                   LINES: 24->1|29->2|34->3|37->6|37->6|37->6|39->8|39->8|39->8|67->36|67->36|67->36|68->37|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|73->42|73->42|73->42|80->49|82->51
                   -- GENERATED --
               */

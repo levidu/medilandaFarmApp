@@ -76,12 +76,12 @@ Seq[Any](format.raw/*1.1*/("""<html>
     </head>
     <body>
         <div>
-            <a href="/editcheckin" title= "Edit Check-in Rows" style="background-color: #e91e1e;border-color: #e91e1e" class="btn btn-success btn-lg">
-                <span class="glyphicon glyphicon-pencil"></span>
+            <a href="/editcheckin" title= "Delete Check-in Rows" style="background-color: #e91e1e;border-color: #e91e1e" class="btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-trash"></span>
             </a>
            
-            <a href="/editcountout" title="Edit Count Rows"style="background-color: #4CAF50;border-color: #4CAF50" class="btn btn-success btn-lg">
-                <span class="glyphicon glyphicon-pencil"></span>
+            <a href="/editcountout" title="Delete Count Rows"style="background-color: #4CAF50;border-color: #4CAF50" class="btn btn-success btn-lg">
+                <span class="glyphicon glyphicon-trash"></span>
             </a>
             <a href="/manualadd" title="Manual Data Entry" style="background-color: #FF9800;border-color: #FF9800;float:right" class="btn btn-success btn-lg">
                 <span class="glyphicon glyphicon-calendar"></span>
@@ -121,9 +121,9 @@ Seq[Any](format.raw/*1.1*/("""<html>
 
               /*
                   -- GENERATED --
-                  DATE: Thu Aug 08 03:40:34 IST 2019
-                  SOURCE: /Users/levi/Downloads/medilandaApp/play-java-seed/app/views/main.scala.html
-                  HASH: 7cf5e41c1c768e9c4f38e5e56cea736241ce48ba
+                  DATE: Wed Aug 14 11:32:45 IST 2019
+                  SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/main.scala.html
+                  HASH: 9a6c3a9190d3614b21de1731f24023ae2c400aa9
                   MATRIX: 1029->0|1219->164|1233->170|1295->212|1443->334|1457->340|1517->380|1630->466|1658->467|1703->484|1830->583|1859->584|1908->605|1984->653|2013->654|2042->655|2075->660|2104->661|2153->682|2228->729|2257->730|2298->743|2327->744|2368->757|2419->780|2448->781|2493->798|2620->897|2649->898|2698->919|2774->967|2803->968|2832->969|2865->974|2894->975|2943->996|3018->1043|3047->1044|3088->1057|3117->1058|3153->1067|3242->1128|3271->1129|3316->1146|3443->1245|3472->1246|3521->1267|3597->1315|3626->1316|3655->1317|3688->1322|3717->1323|3766->1344|3841->1391|3870->1392|3911->1405|3940->1406|3981->1419|4032->1442|4061->1443|4106->1460|4233->1559|4262->1560|4311->1581|4387->1629|4416->1630|4445->1631|4478->1636|4507->1637|4556->1658|4631->1705|4660->1706|4701->1719|4730->1720|4766->1729
                   LINES: 33->1|37->5|37->5|37->5|39->7|39->7|39->7|41->9|41->9|42->10|43->11|43->11|44->12|45->13|45->13|45->13|45->13|45->13|46->14|47->15|47->15|48->16|48->16|49->17|49->17|49->17|50->18|51->19|51->19|52->20|53->21|53->21|53->21|53->21|53->21|54->22|55->23|55->23|56->24|56->24|57->25|59->27|59->27|60->28|61->29|61->29|62->30|63->31|63->31|63->31|63->31|63->31|64->32|65->33|65->33|66->34|66->34|67->35|67->35|67->35|68->36|69->37|69->37|70->38|71->39|71->39|71->39|71->39|71->39|72->40|73->41|73->41|74->42|74->42|75->43
                   -- GENERATED --

@@ -104,9 +104,9 @@
              */
             display: {
                 decPoint: ".",
-                cancel: "Cancel",
-                correct: "Correct",
-                confirm: "Confirm"
+                cancel: "Clear",
+                correct: "Delete",
+                confirm: "Enter"
             },
 
             /**
@@ -121,7 +121,7 @@
                 "1 2 3",
                 "4 5 6",
                 "7 8 9",
-                "{empty} 0 {dec}"
+                "{empty} 0 {empty}"
             ],
 
             /**

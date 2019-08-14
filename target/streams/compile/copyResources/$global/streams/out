@@ -1,7 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/logback.xml,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/application.conf,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/evolutions,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/evolutions)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/evolutions/default,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/evolutions/default)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/evolutions/default/1.sql,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/evolutions/default/1.sql)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaApp/play-java-seed/conf/routes,/Users/levi/Downloads/medilandaApp/play-java-seed/target/scala-2.12/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/logback.xml,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/application.conf,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/evolutions,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/evolutions/default,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/evolutions/default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/evolutions/default/1.sql,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/evolutions/default/1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/levi/Downloads/medilandaFarmApp/conf/routes,/Users/levi/Downloads/medilandaFarmApp/target/scala-2.12/classes/routes)[0m
