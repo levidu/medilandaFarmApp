@@ -37,6 +37,16 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
         <link rel="stylesheet" href=""""),_display_(/*6.39*/routes/*6.45*/.Assets.versioned("css/bootstrap_checkin.min.css")),format.raw/*6.95*/("""">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
         <script src=""""),_display_(/*8.23*/routes/*8.29*/.Assets.versioned("js/bootstrap_checkin.min.js")),format.raw/*8.77*/("""" type="text/javascript"></script>
+        <script>
+            function myHomeFunction() """),format.raw/*10.39*/("""{"""),format.raw/*10.40*/("""
+                """),format.raw/*11.17*/("""var x = document.getElementById('homeTrig');
+                if (x.style.visibility === 'hidden') """),format.raw/*12.54*/("""{"""),format.raw/*12.55*/("""
+                    """),format.raw/*13.21*/("""x.style.visibility = 'visible';
+                """),format.raw/*14.17*/("""}"""),format.raw/*14.18*/(""" """),format.raw/*14.19*/("""else """),format.raw/*14.24*/("""{"""),format.raw/*14.25*/("""
+                    """),format.raw/*15.21*/("""x.style.visibility = 'hidden';
+                """),format.raw/*16.17*/("""}"""),format.raw/*16.18*/("""
+            """),format.raw/*17.13*/("""}"""),format.raw/*17.14*/("""
+        """),format.raw/*18.9*/("""</script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -46,7 +56,7 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
                 </div>
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+                        <a  onclick="myHomeFunction()"><span class="glyphicon glyphicon-home"></span></a>
                     </li>
                 </ul>
             </div>
@@ -64,22 +74,22 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
             			<th scope="col">DATE-TIME</th> 		
             		</thead>
             		<tbody>
-            			"""),_display_(/*36.17*/for(checkinRow<-checkinList) yield /*36.45*/ {_display_(Seq[Any](format.raw/*36.47*/("""
-            			"""),format.raw/*37.16*/("""<tr sccope="row">
-            				<td>"""),_display_(/*38.22*/checkinRow/*38.32*/.getUid),format.raw/*38.39*/("""</td>
-            				<td>"""),_display_(/*39.22*/checkinRow/*39.32*/.getCage),format.raw/*39.40*/("""</td>
-            				<td>"""),_display_(/*40.22*/checkinRow/*40.32*/.getDate_time),format.raw/*40.45*/("""</td>
+            			"""),_display_(/*46.17*/for(checkinRow<-checkinList) yield /*46.45*/ {_display_(Seq[Any](format.raw/*46.47*/("""
+            			"""),format.raw/*47.16*/("""<tr sccope="row">
+            				<td>"""),_display_(/*48.22*/checkinRow/*48.32*/.getUid),format.raw/*48.39*/("""</td>
+            				<td>"""),_display_(/*49.22*/checkinRow/*49.32*/.getCage),format.raw/*49.40*/("""</td>
+            				<td>"""),_display_(/*50.22*/checkinRow/*50.32*/.getDate_time),format.raw/*50.45*/("""</td>
             				<td>
-            					<a href=""""),_display_(/*42.28*/routes/*42.34*/.HomeController.delete_checkin_row(checkinRow.getDate_time)),format.raw/*42.93*/("""">
+            					<a href=""""),_display_(/*52.28*/routes/*52.34*/.HomeController.delete_checkin_row(checkinRow.getDate_time)),format.raw/*52.93*/("""">
             					<i class="glyphicon glyphicon-trash"></i>
             					</a>
             				</td>
             				
             			</tr>
             			
-            			""")))}),format.raw/*49.17*/("""
+            			""")))}),format.raw/*59.17*/("""
     
-            		"""),format.raw/*51.15*/("""</tbody>
+            		"""),format.raw/*61.15*/("""</tbody>
             		<tfoot>
             			<tr scope="row">
             			</tr>
@@ -88,6 +98,8 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
                 
             </div>
         </center>
+       	<p style="visibility: hidden; color:white" id="homeTrig">HOME</p>
+        
     
 
 </body></html>"""))
@@ -106,11 +118,11 @@ Seq[Any](format.raw/*3.1*/("""<html><head>
 
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 14 15:22:47 IST 2019
+                  DATE: Fri Aug 16 13:54:13 IST 2019
                   SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/editcheckin.scala.html
-                  HASH: b8a9942a89cb448f76072e82fc23a35dc1fb2f68
-                  MATRIX: 651->1|1002->30|1130->65|1315->224|1329->230|1399->280|1570->425|1584->431|1652->479|2576->1376|2620->1404|2660->1406|2704->1422|2770->1461|2789->1471|2817->1478|2871->1505|2890->1515|2919->1523|2973->1550|2992->1560|3026->1573|3107->1627|3122->1633|3202->1692|3409->1868|3457->1888
-                  LINES: 24->1|29->2|34->3|37->6|37->6|37->6|39->8|39->8|39->8|67->36|67->36|67->36|68->37|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|73->42|73->42|73->42|80->49|82->51
+                  HASH: e15c06759ae8d1729cf91dafe1b1d105eb8d44df
+                  MATRIX: 651->1|1002->30|1130->65|1315->224|1329->230|1399->280|1570->425|1584->431|1652->479|1770->569|1799->570|1844->587|1970->685|1999->686|2048->707|2124->755|2153->756|2182->757|2215->762|2244->763|2293->784|2368->831|2397->832|2438->845|2467->846|2503->855|3421->1746|3465->1774|3505->1776|3549->1792|3615->1831|3634->1841|3662->1848|3716->1875|3735->1885|3764->1893|3818->1920|3837->1930|3871->1943|3952->1997|3967->2003|4047->2062|4254->2238|4302->2258
+                  LINES: 24->1|29->2|34->3|37->6|37->6|37->6|39->8|39->8|39->8|41->10|41->10|42->11|43->12|43->12|44->13|45->14|45->14|45->14|45->14|45->14|46->15|47->16|47->16|48->17|48->17|49->18|77->46|77->46|77->46|78->47|79->48|79->48|79->48|80->49|80->49|80->49|81->50|81->50|81->50|83->52|83->52|83->52|90->59|92->61
                   -- GENERATED --
               */
           

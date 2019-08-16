@@ -6,6 +6,16 @@
         <link rel="stylesheet" href="@routes.Assets.versioned("css/bootstrap_checkin.min.css")">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
         <script src="@routes.Assets.versioned("js/bootstrap_checkin.min.js")" type="text/javascript"></script>
+        <script>
+            function myHomeFunction() {
+                var x = document.getElementById('homeTrig');
+                if (x.style.visibility === 'hidden') {
+                    x.style.visibility = 'visible';
+                } else {
+                    x.style.visibility = 'hidden';
+                }
+            }
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -15,7 +25,7 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+                        <a  onclick="myHomeFunction()"><span class="glyphicon glyphicon-home"></span></a>
                     </li>
                 </ul>
             </div>
@@ -57,6 +67,8 @@
                 
             </div>
         </center>
+       	<p style="visibility: hidden; color:white" id="homeTrig">HOME</p>
+        
     
 
 </body></html>

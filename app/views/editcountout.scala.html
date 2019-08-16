@@ -13,7 +13,20 @@
         <script src="@routes.Assets.versioned("NumPad-master/external/jquery-ui/jquery-ui.js")"></script>
         <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.js")"></script>
         <script src="@routes.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.extension.js")"></script>
+        
         <script>
+            function myHomeFunction() {
+                var x = document.getElementById('homeTrig');
+                if (x.style.visibility === 'hidden') {
+                    x.style.visibility = 'visible';
+                } else {
+                    x.style.visibility = 'hidden';
+                }
+            }
+        </script>
+        <script>
+        
+        
         $(function(){
             $("#egg_count").pinpad({
                 digitOnly: true
@@ -44,7 +57,7 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+                        <a onclick="myHomeFunction()"><span class="glyphicon glyphicon-home"></span></a>
                     </li>
                 </ul>
             </div>
@@ -97,5 +110,7 @@
                 
             </div>
         </center>
+        
+        <p style="visibility: hidden; color:white" id="homeTrig">HOME</p>
     </body>
 </html>

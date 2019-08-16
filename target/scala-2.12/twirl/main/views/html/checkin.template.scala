@@ -66,7 +66,7 @@ Seq[Any](format.raw/*2.1*/("""<html>
                     <input type="text" class="form-control" placeholder="TIME" name="date_time">
                     <br>
                     <br>
-                    <input type="submit" class="btn btn-default" value="Submit">
+                    <input type="submit" class="btn btn-default" value="Submit" id="checkinForm">
                 </form>
             </div>
         </center>
@@ -87,9 +87,9 @@ Seq[Any](format.raw/*2.1*/("""<html>
 
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 14 15:22:47 IST 2019
+                  DATE: Fri Aug 16 17:40:26 IST 2019
                   SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/checkin.scala.html
-                  HASH: 16cf69463a77f9ceb61c9a0cb524aee6ded05503
+                  HASH: 53017cb00effd228be68d2e1aa061593b3e9bb75
                   MATRIX: 963->1|1097->42|1287->206|1301->212|1371->262|1519->384|1533->390|1601->438|2192->1002|2207->1008|2259->1039
                   LINES: 28->1|33->2|37->6|37->6|37->6|39->8|39->8|39->8|60->29|60->29|60->29
                   -- GENERATED --

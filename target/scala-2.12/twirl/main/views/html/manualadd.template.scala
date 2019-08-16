@@ -47,18 +47,27 @@ Seq[Any](format.raw/*2.1*/("""<html>
 <script src=""""),_display_(/*16.15*/routes/*16.21*/.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.js")),format.raw/*16.80*/(""""></script>
 <script src=""""),_display_(/*17.15*/routes/*17.21*/.Assets.versioned("NumPad-master/dist/jquery.ui.pinpad.extension.js")),format.raw/*17.90*/(""""></script>
 
-
 <script>
-	$(function() """),format.raw/*21.15*/("""{"""),format.raw/*21.16*/("""
-		"""),format.raw/*22.3*/("""$("#total_count").pinpad("""),format.raw/*22.28*/("""{"""),format.raw/*22.29*/("""
-			"""),format.raw/*23.4*/("""digitOnly : true
-		"""),format.raw/*24.3*/("""}"""),format.raw/*24.4*/(""");
-	"""),format.raw/*25.2*/("""}"""),format.raw/*25.3*/(""");
-	$(function() """),format.raw/*26.15*/("""{"""),format.raw/*26.16*/("""
-		"""),format.raw/*27.3*/("""$("#total_damage").pinpad("""),format.raw/*27.29*/("""{"""),format.raw/*27.30*/("""
-			"""),format.raw/*28.4*/("""digitOnly : true
-		"""),format.raw/*29.3*/("""}"""),format.raw/*29.4*/(""");
-	"""),format.raw/*30.2*/("""}"""),format.raw/*30.3*/(""");
+            function myHomeFunction() """),format.raw/*20.39*/("""{"""),format.raw/*20.40*/("""
+                """),format.raw/*21.17*/("""var x = document.getElementById('homeTrig');
+                if (x.style.visibility === 'hidden') """),format.raw/*22.54*/("""{"""),format.raw/*22.55*/("""
+                    """),format.raw/*23.21*/("""x.style.visibility = 'visible';
+                """),format.raw/*24.17*/("""}"""),format.raw/*24.18*/(""" """),format.raw/*24.19*/("""else """),format.raw/*24.24*/("""{"""),format.raw/*24.25*/("""
+                    """),format.raw/*25.21*/("""x.style.visibility = 'hidden';
+                """),format.raw/*26.17*/("""}"""),format.raw/*26.18*/("""
+            """),format.raw/*27.13*/("""}"""),format.raw/*27.14*/("""
+        """),format.raw/*28.9*/("""</script>
+<script>
+	$(function() """),format.raw/*30.15*/("""{"""),format.raw/*30.16*/("""
+		"""),format.raw/*31.3*/("""$("#total_count").pinpad("""),format.raw/*31.28*/("""{"""),format.raw/*31.29*/("""
+			"""),format.raw/*32.4*/("""digitOnly : true
+		"""),format.raw/*33.3*/("""}"""),format.raw/*33.4*/(""");
+	"""),format.raw/*34.2*/("""}"""),format.raw/*34.3*/(""");
+	$(function() """),format.raw/*35.15*/("""{"""),format.raw/*35.16*/("""
+		"""),format.raw/*36.3*/("""$("#total_damage").pinpad("""),format.raw/*36.29*/("""{"""),format.raw/*36.30*/("""
+			"""),format.raw/*37.4*/("""digitOnly : true
+		"""),format.raw/*38.3*/("""}"""),format.raw/*38.4*/(""");
+	"""),format.raw/*39.2*/("""}"""),format.raw/*39.3*/(""");
 
 	var date = new Date();
 
@@ -66,13 +75,13 @@ Seq[Any](format.raw/*2.1*/("""<html>
 	var cMonth = date.getMonth();
 	var cDate = date.getDate();
 
-	$(function() """),format.raw/*38.15*/("""{"""),format.raw/*38.16*/("""
-		"""),format.raw/*39.3*/("""$("#datepicker").datepicker("""),format.raw/*39.31*/("""{"""),format.raw/*39.32*/("""
-			"""),format.raw/*40.4*/("""dateFormat : "yy-mm-dd",
+	$(function() """),format.raw/*47.15*/("""{"""),format.raw/*47.16*/("""
+		"""),format.raw/*48.3*/("""$("#datepicker").datepicker("""),format.raw/*48.31*/("""{"""),format.raw/*48.32*/("""
+			"""),format.raw/*49.4*/("""dateFormat : "yy-mm-dd",
 			maxDate : new Date(cYear, cMonth, cDate)
 
-		"""),format.raw/*43.3*/("""}"""),format.raw/*43.4*/(""");
-	"""),format.raw/*44.2*/("""}"""),format.raw/*44.3*/(""");
+		"""),format.raw/*52.3*/("""}"""),format.raw/*52.4*/(""");
+	"""),format.raw/*53.2*/("""}"""),format.raw/*53.3*/(""");
 </script>
 </head>
 <body>
@@ -82,14 +91,14 @@ Seq[Any](format.raw/*2.1*/("""<html>
 				<a class="navbar-brand">Manual Data Entry</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="/"><span class="glyphicon glyphicon-home"></span></a>
+				<li><a onclick="myHomeFunction()"><span class="glyphicon glyphicon-home"></span></a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<center>
 		<div class="container">
-			<form action=""""),_display_(/*61.19*/routes/*61.25*/.HomeController.manualadd_save()),format.raw/*61.57*/("""" method="POST">
+			<form action=""""),_display_(/*70.19*/routes/*70.25*/.HomeController.manualadd_save()),format.raw/*70.57*/("""" method="POST">
 				<div class="btn-group btn-group-justified" data-toggle="buttons">
 					<label class="btn btn-primary btn-lg"> <input type="radio"
 						name="user" value="user1" required>User 1
@@ -172,6 +181,9 @@ Seq[Any](format.raw/*2.1*/("""<html>
 		</form>
 		</div>
 	</center>
+	
+	        <p style="visibility: hidden; color:white" id="homeTrig">HOME</p>
+	
 </body>
 </html>"""))
       }
@@ -189,11 +201,11 @@ Seq[Any](format.raw/*2.1*/("""<html>
 
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 14 15:22:47 IST 2019
+                  DATE: Fri Aug 16 13:54:13 IST 2019
                   SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/manualadd.scala.html
-                  HASH: 6da9a2b861854d4705222f8fd2b0db8e17944cdf
-                  MATRIX: 964->1|1096->40|1258->176|1272->182|1344->234|1477->341|1491->347|1561->397|1766->575|1781->581|1862->641|1922->674|1937->680|2026->747|2070->764|2085->770|2166->830|2219->856|2234->862|2321->928|2374->954|2389->960|2469->1019|2522->1045|2537->1051|2627->1120|2692->1157|2721->1158|2751->1161|2804->1186|2833->1187|2864->1191|2910->1210|2938->1211|2969->1215|2997->1216|3042->1233|3071->1234|3101->1237|3155->1263|3184->1264|3215->1268|3261->1287|3289->1288|3320->1292|3348->1293|3513->1430|3542->1431|3572->1434|3628->1462|3657->1463|3688->1467|3787->1539|3815->1540|3846->1544|3874->1545|4281->1925|4296->1931|4349->1963
-                  LINES: 28->1|33->2|37->6|37->6|37->6|40->9|40->9|40->9|43->12|43->12|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|48->17|48->17|48->17|52->21|52->21|53->22|53->22|53->22|54->23|55->24|55->24|56->25|56->25|57->26|57->26|58->27|58->27|58->27|59->28|60->29|60->29|61->30|61->30|69->38|69->38|70->39|70->39|70->39|71->40|74->43|74->43|75->44|75->44|92->61|92->61|92->61
+                  HASH: afbb75eacd9fe2c487e3d1ecb8aa9c67ef99876b
+                  MATRIX: 964->1|1096->40|1258->176|1272->182|1344->234|1477->341|1491->347|1561->397|1766->575|1781->581|1862->641|1922->674|1937->680|2026->747|2070->764|2085->770|2166->830|2219->856|2234->862|2321->928|2374->954|2389->960|2469->1019|2522->1045|2537->1051|2627->1120|2715->1180|2744->1181|2789->1198|2915->1296|2944->1297|2993->1318|3069->1366|3098->1367|3127->1368|3160->1373|3189->1374|3238->1395|3313->1442|3342->1443|3383->1456|3412->1457|3448->1466|3509->1499|3538->1500|3568->1503|3621->1528|3650->1529|3681->1533|3727->1552|3755->1553|3786->1557|3814->1558|3859->1575|3888->1576|3918->1579|3972->1605|4001->1606|4032->1610|4078->1629|4106->1630|4137->1634|4165->1635|4330->1772|4359->1773|4389->1776|4445->1804|4474->1805|4505->1809|4604->1881|4632->1882|4663->1886|4691->1887|5116->2285|5131->2291|5184->2323
+                  LINES: 28->1|33->2|37->6|37->6|37->6|40->9|40->9|40->9|43->12|43->12|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|48->17|48->17|48->17|51->20|51->20|52->21|53->22|53->22|54->23|55->24|55->24|55->24|55->24|55->24|56->25|57->26|57->26|58->27|58->27|59->28|61->30|61->30|62->31|62->31|62->31|63->32|64->33|64->33|65->34|65->34|66->35|66->35|67->36|67->36|67->36|68->37|69->38|69->38|70->39|70->39|78->47|78->47|79->48|79->48|79->48|80->49|83->52|83->52|84->53|84->53|101->70|101->70|101->70
                   -- GENERATED --
               */
           

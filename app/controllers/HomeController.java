@@ -110,7 +110,7 @@ public class HomeController extends Controller {
     	
     	checkin_row.delete();
     	
-    	return redirect("/");
+    	return redirect("/editcheckin");
 
     	
     	
@@ -144,7 +144,7 @@ public class HomeController extends Controller {
     	
     	countout_row.delete();
     	
-    	return redirect("/");
+    	return redirect("/editcountout");
 
     	
     	
@@ -163,7 +163,7 @@ public class HomeController extends Controller {
     	Form<ManualRecord> manualRecordForm = formFactory.form(ManualRecord.class).bindFromRequest();
     	ManualRecord record = manualRecordForm.get();
     	record.save();
-    	return redirect("/");
+    	return redirect("/manualadd");
     }
    
 

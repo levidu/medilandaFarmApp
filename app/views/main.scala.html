@@ -22,36 +22,44 @@
                     x.style.visibility = 'hidden';
                 }
             }
-        </script>
-        <script>
-            function myFunction() {
-                var x = document.getElementById('checkTrig');
+            function myFunction2() {
+                var x = document.getElementById('rcheckinTrig');
                 if (x.style.visibility === 'hidden') {
                     x.style.visibility = 'visible';
                 } else {
                     x.style.visibility = 'hidden';
                 }
             }
-            function myFunction1() {
-                var x = document.getElementById('countTrig');
+            function myFunction3() {
+                var x = document.getElementById('rcountTrig');
                 if (x.style.visibility === 'hidden') {
                     x.style.visibility = 'visible';
                 } else {
                     x.style.visibility = 'hidden';
                 }
             }
+            function myFunction4() {
+                var x = document.getElementById('manualTrig');
+                if (x.style.visibility === 'hidden') {
+                    x.style.visibility = 'visible';
+                } else {
+                    x.style.visibility = 'hidden';
+                }
+            }
+            
+            
         </script>
     </head>
     <body>
         <div>
-            <a href="/editcheckin" title= "Delete Check-in Rows" style="background-color: #e91e1e;border-color: #e91e1e" class="btn btn-success btn-lg">
+            <a title= "Delete Check-in Rows" style="background-color: #e91e1e;border-color: #e91e1e" class="btn btn-success btn-lg" onclick="myFunction2()" >
                 <span class="glyphicon glyphicon-trash"></span>
             </a>
            
-            <a href="/editcountout" title="Delete Count Rows"style="background-color: #4CAF50;border-color: #4CAF50" class="btn btn-success btn-lg">
+            <a title="Delete Count Rows"style="background-color: #4CAF50;border-color: #4CAF50" class="btn btn-success btn-lg" onclick="myFunction3()">
                 <span class="glyphicon glyphicon-trash"></span>
             </a>
-            <a href="/manualadd" title="Manual Data Entry" style="background-color: #FF9800;border-color: #FF9800;float:right" class="btn btn-success btn-lg">
+            <a title="Manual Data Entry" style="background-color: #FF9800;border-color: #FF9800;float:right" class="btn btn-success btn-lg" onclick="myFunction4()">
                 <span class="glyphicon glyphicon-calendar"></span>
             </a>
             
@@ -67,8 +75,12 @@
                 <br>
                 <br>
                 <a style="width:80vw;display:block;vertical-align:middle;color:white;background-color: #4CAF50;font-size:10vh;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;padding-top:5vh;padding-bottom:5vh;max-height=30vh;min-height=10vh;border-radius:5vh;text-decoration: none;" onclick="myFunction1()">COUNT</a>
-                <p style="visibility: hidden;" id="checkTrig">CHECK-IN</p>
-                <p style="visibility: hidden;" id="countTrig">COUNT</p>
+                <p style="visibility: hidden; color:white" id="checkTrig">CHECK-IN</p>
+                <p style="visibility: hidden; color:white" id="countTrig">COUNT</p>
+                <p style="visibility: hidden; color:white" id="rcheckinTrig">REMOVE CHECK-IN ROWS</p>
+                <p style="visibility: hidden; color:white" id="rcountTrig">REMOVE COUNT ROWS</p>
+                <p style="visibility: hidden; color:white" id="manualTrig">MANUAL DATA ENTRY</p>
+                
             </center>
         </center>
     </body>

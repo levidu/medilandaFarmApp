@@ -4,16 +4,16 @@
 	<info
 		organisation="lk.medilandafarms"
 		module="medilanda_app_2.12"
-		revision="1.1-SNAPSHOT"
+		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20190814152247"/>
+		date="20190816125026"/>
 	<dependencies>
 		<module organisation="org.glassfish.jaxb" name="jaxb-runtime">
 			<revision name="2.3.0" status="release" pubdate="20170802111656" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
 				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="12289" time="0" location="/Users/levi/.ivy2/cache/org.glassfish.jaxb/jaxb-runtime/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-runtime-2.3.0.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="jaxb-runtime" type="jar" ext="jar" status="no" details="" size="958197" time="0" location="/Users/levi/.ivy2/cache/org.glassfish.jaxb/jaxb-runtime/jars/jaxb-runtime-2.3.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-runtime-2.3.0.jar"/>
@@ -86,7 +86,7 @@
 			<revision name="1.1.1" status="release" pubdate="20091023142603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
 				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
 				<metadata-artifact status="no" details="" size="2644" time="0" location="/Users/levi/.ivy2/cache/javax.activation/activation/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="69409" time="0" location="/Users/levi/.ivy2/cache/javax.activation/activation/jars/activation-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
@@ -98,7 +98,7 @@
 			<revision name="5.1.47" status="release" pubdate="20180807122912" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
 				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2538" time="0" location="/Users/levi/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.47.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="5.1.47" rev-constraint-default="5.1.47" rev-constraint-dynamic="5.1.47" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="5.1.47" rev-constraint-default="5.1.47" rev-constraint-dynamic="5.1.47" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="1007502" time="0" location="/Users/levi/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.47.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar"/>
@@ -110,7 +110,7 @@
 			<revision name="2.7.2" status="release" pubdate="20190425174445" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.7.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3664" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.2/filters-helpers_2.12-2.7.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="filters-helpers_2.12" type="jar" ext="jar" status="no" details="" size="368423" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/jars/filters-helpers_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.7.2/filters-helpers_2.12-2.7.2.jar"/>
@@ -122,7 +122,7 @@
 			<revision name="2.7.2" status="release" pubdate="20190425174112" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.7.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="5985" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-java-forms_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.7.2/play-java-forms_2.12-2.7.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-java-forms_2.12" type="jar" ext="jar" status="no" details="" size="93114" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-java-forms_2.12/jars/play-java-forms_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.7.2/play-java-forms_2.12-2.7.2.jar"/>
@@ -218,7 +218,7 @@
 			<revision name="2.7.2" status="release" pubdate="20190425173926" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.7.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3298" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-logback_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.2/play-logback_2.12-2.7.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-logback_2.12" type="jar" ext="jar" status="no" details="" size="10590" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-logback_2.12/jars/play-logback_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.7.2/play-logback_2.12-2.7.2.jar"/>
@@ -230,7 +230,7 @@
 			<revision name="2.7.2" status="release" pubdate="20190425174105" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.7.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="17">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3439" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.12/2.7.2/play-java-jdbc_2.12-2.7.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-ebean_2.12" conf="default, compile, runtime, master" rev="2.7.0-RC9" rev-constraint-default="2.7.0-RC9" rev-constraint-dynamic="2.7.0-RC9" callerrev="5.0.0"/>
 				<artifacts>
 					<artifact name="play-java-jdbc_2.12" type="jar" ext="jar" status="no" details="" size="11406" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.12/jars/play-java-jdbc_2.12-2.7.2.jar">
@@ -240,7 +240,7 @@
 			</revision>
 			<revision name="2.7.0-RC9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="-1">
 				<evicted-by rev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-ebean_2.12" conf="default, compile, runtime, master" rev="2.7.0-RC9" rev-constraint-default="2.7.0-RC9" rev-constraint-dynamic="2.7.0-RC9" callerrev="5.0.0"/>
 				<artifacts>
 				</artifacts>
@@ -276,7 +276,7 @@
 			<revision name="2.7.2" status="release" pubdate="20190425173939" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.7.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="6003" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-test_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.2/play-test_2.12-2.7.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-test_2.12" type="jar" ext="jar" status="no" details="" size="173323" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-test_2.12/jars/play-test_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.12/2.7.2/play-test_2.12-2.7.2.jar"/>
@@ -928,7 +928,7 @@
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3859" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.2/play-akka-http-server_2.12-2.7.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-test_2.12" conf="default, compile, runtime, master" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-akka-http-server_2.12" type="jar" ext="jar" status="no" details="" size="108616" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/jars/play-akka-http-server_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.7.2/play-akka-http-server_2.12-2.7.2.jar"/>
@@ -965,8 +965,8 @@
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3758" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-server_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.2/play-server_2.12-2.7.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.12" conf="compile, runtime" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="2.7.2"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-akka-http-server_2.12" conf="default, compile, runtime, master" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-server_2.12" type="jar" ext="jar" status="no" details="" size="237608" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-server_2.12/jars/play-server_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.7.2/play-server_2.12-2.7.2.jar"/>
@@ -979,7 +979,7 @@
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3690" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-guice_2.12/ivy-2.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.2/play-guice_2.12-2.7.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-test_2.12" conf="default, compile, runtime, master" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-guice_2.12" type="jar" ext="jar" status="no" details="" size="90086" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-guice_2.12/jars/play-guice_2.12-2.7.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.7.2/play-guice_2.12-2.7.2.jar"/>
@@ -1129,8 +1129,8 @@
 				<license name="CDDL 1.1" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
 				<license name="GPL2 w/ CPE" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
 				<metadata-artifact status="no" details="" size="4209" time="0" location="/Users/levi/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.pom"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.1-SNAPSHOT"/>
 				<caller organisation="org.glassfish.jaxb" name="jaxb-core" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.3.0"/>
 				<artifacts>
 					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="128076" time="0" location="/Users/levi/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.3.1.jar">
@@ -1140,7 +1140,7 @@
 			</revision>
 			<revision name="2.3.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
 				<evicted-by rev="2.3.1"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="org.glassfish.jaxb" name="jaxb-core" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.3.0"/>
 				<artifacts>
 				</artifacts>
@@ -1675,7 +1675,7 @@
 			<revision name="5.0.0" status="release" pubdate="20190130215032" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4025" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-ebean_2.12/ivy-5.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.12/5.0.0/play-ebean_2.12-5.0.0.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.0" rev-constraint-default="5.0.0" rev-constraint-dynamic="5.0.0" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.0" rev-constraint-default="5.0.0" rev-constraint-dynamic="5.0.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-ebean_2.12" type="jar" ext="jar" status="no" details="" size="14194" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-ebean_2.12/jars/play-ebean_2.12-5.0.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.12/5.0.0/play-ebean_2.12-5.0.0.jar"/>
@@ -1883,7 +1883,7 @@
 			<revision name="1.4.0" status="release" pubdate="20190116125935" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2947" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/twirl-api_2.12/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.4.0/twirl-api_2.12-1.4.0.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.7.2"/>
 				<artifacts>
 					<artifact name="twirl-api_2.12" type="jar" ext="jar" status="no" details="" size="76951" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar">
@@ -1963,7 +1963,7 @@
 			<revision name="1.2.2" status="release" pubdate="20171006193322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2671" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-enhancer/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2.pom"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.1-SNAPSHOT"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="play-enhancer" type="jar" ext="jar" status="no" details="" size="8112" time="0" location="/Users/levi/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2.jar"/>
@@ -2000,7 +2000,6 @@
 				<caller organisation="com.typesafe.play" name="play-streams_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
 				<caller organisation="com.typesafe.play" name="play-java_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
-				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.1-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
 				<caller organisation="com.typesafe.play" name="play-java-jdbc_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
 				<caller organisation="com.typesafe.play" name="play-jdbc-api_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
@@ -2021,6 +2020,7 @@
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.5.22"/>
 				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.1.1"/>
 				<caller organisation="com.typesafe.play" name="play-java-forms_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.7.2"/>
+				<caller organisation="lk.medilandafarms" name="medilanda_app_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="2.5.22"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/Users/levi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
