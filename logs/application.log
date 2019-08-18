@@ -1,11 +1,11 @@
-2019-08-16 19:17:59,404 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized at jdbc:mysql://mydb.cinswpe4yx1c.us-east-2.rds.amazonaws.com:3306/medilanda_production?autoReconnect=true&useSSL=false
-2019-08-16 19:17:59,412 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
-2019-08-16 19:18:17,069 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-08-18 12:15:13,590 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:mysql://mydb.cinswpe4yx1c.us-east-2.rds.amazonaws.com:3306/medilanda_production?autoReconnect=true&useSSL=false
+2019-08-18 12:15:13,596 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2019-08-18 12:15:21,717 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-08-16 19:18:17,075 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
-2019-08-16 19:19:05,023 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
-2019-08-16 19:19:05,039 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2019-08-18 12:15:21,722 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-08-18 12:17:09,171 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2019-08-18 12:17:09,185 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
