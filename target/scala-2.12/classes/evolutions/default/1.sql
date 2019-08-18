@@ -75,7 +75,7 @@ create table manual_record (
   id                            integer auto_increment not null,
   user                          varchar(255),
   cage                          varchar(255),
-  total_count                   integer,
+  egg_count                     integer,
   total_damage                  integer,
   date_time                     varchar(255),
   constraint pk_manual_record primary key (id)

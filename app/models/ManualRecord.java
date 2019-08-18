@@ -16,7 +16,7 @@ public class ManualRecord extends Model {
 	public Integer id;
 	public String user;
 	public String cage;
-	public Integer total_count;
+	public Integer egg_count;
 	public Integer total_damage;
 	public String date_time;
 	
@@ -58,14 +58,14 @@ public class ManualRecord extends Model {
 
 
 
-	public Integer getTotal_count() {
-		return total_count;
+	public Integer getEgg_count() {
+		return egg_count;
 	}
 
 
 
-	public void setTotal_count(Integer total_count) {
-		this.total_count = total_count;
+	public void setEgg_count(Integer egg_count) {
+		this.egg_count = egg_count;
 	}
 
 
