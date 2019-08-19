@@ -87,7 +87,7 @@ Seq[Any](format.raw/*2.1*/("""<html>
 
               /*
                   -- GENERATED --
-                  DATE: Mon Aug 19 03:39:45 IST 2019
+                  DATE: Tue Aug 20 03:03:32 IST 2019
                   SOURCE: /Users/levi/Downloads/medilandaFarmApp/app/views/checkin.scala.html
                   HASH: 53017cb00effd228be68d2e1aa061593b3e9bb75
                   MATRIX: 963->1|1097->42|1287->206|1301->212|1371->262|1519->384|1533->390|1601->438|2192->1002|2207->1008|2259->1039
