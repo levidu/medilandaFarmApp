@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/levi/Downloads/medilandaFarmApp/conf/routes
-// @DATE:Tue Aug 20 03:03:32 IST 2019
+// @DATE:Tue Aug 20 12:42:58 IST 2019
 
 package router
 
