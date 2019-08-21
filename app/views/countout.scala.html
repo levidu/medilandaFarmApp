@@ -56,7 +56,7 @@
                 <form action="@routes.HomeController.count_out_save()" method="POST">
                     <div class="btn-group btn-group-justified" data-toggle="buttons">
 					<label class="btn btn-primary btn-lg"> <input type="radio"
-						name="user" value="user1" oninvalid="alert('අසම්පූර්ණයි! දත්ත නැවත ඇතුල් කරන්න');" required>User 1
+						name="user" value="user1" oninvalid="this.setCustomValidity('අසම්පූර්ණයි! දත්ත නැවත ඇතුල් කරන්න')" oninput="setCustomValidity('')" required="">User 1
 					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
 						name="user" value="user2">User 2
 					</label> <label class="btn btn-primary btn-lg"> <input type="radio"
@@ -71,13 +71,13 @@
 				</div>
                     <br>
                     <br>
-                    <input type="text" class="form-control" placeholder="EGG COUNT | බිත්තර ගණන" name="egg_count" id="egg_count" oninvalid="alert('දත්ත ඇතුළත් කර නැත');" required>
+                    <input type="text" class="form-control" placeholder="EGG COUNT | බිත්තර ගණන" name="egg_count" id="egg_count" required="" oninvalid="this.setCustomValidity('දත්ත ඇතුළත් කර නැත')" oninput="setCustomValidity('')" >
                     <br>
-                    <input type="text" class="form-control" placeholder="DAMAGE COUNT | කැඩුණු බිත්තර" name="damage_count" id="damage_count" oninvalid="alert('දත්ත ඇතුළත් කර නැත');" required >
+                    <input type="text" class="form-control" placeholder="DAMAGE COUNT | කැඩුණු බිත්තර" name="damage_count" id="damage_count" oninvalid="this.setCustomValidity('දත්ත ඇතුළත් කර නැත')" oninput="setCustomValidity('')" required="" >
                     <br>
-                    <input type="text" class="form-control" placeholder="DIRTY COUNT | අපිරිසිදු බිත්තර" name="dirty_count" id="dirty_count" oninvalid="alert('දත්ත ඇතුළත් කර නැත');" required >
+                    <input type="text" class="form-control" placeholder="DIRTY COUNT | අපිරිසිදු බිත්තර" name="dirty_count" id="dirty_count" oninvalid="this.setCustomValidity('දත්ත ඇතුළත් කර නැත')" oninput="setCustomValidity('')" required="" >
                     <br>
-                    <input type="text" class="form-control" placeholder="DAMAGED BY USER | පරිශීලකයාගේ බිත්තර හානිය" name="damaged_on_counter" id="damaged_on_counter" oninvalid="alert('දත්ත ඇතුළත් කර නැත');" required>
+                    <input type="text" class="form-control" placeholder="DAMAGED BY USER | පරිශීලකයාගේ බිත්තර හානිය" name="damaged_on_counter" id="damaged_on_counter" oninvalid="this.setCustomValidity('දත්ත ඇතුළත් කර නැත')" oninput="setCustomValidity('')" required="">
                     <br>
                     <br>
                     <br>
