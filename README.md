@@ -9,3 +9,8 @@ Video Demos - Download the .MOV and check them out
 https://github.com/levidu/medilandaFarmApp/blob/master/IMG_1835.MOV
 
 https://github.com/levidu/medilandaFarmApp/blob/master/IMG_1836.MOV
+
+
+Screenshot of Kibana Dashboard
+
+https://github.com/levidu/medilandaFarmApp/blob/master/Screen%20Shot%202019-09-16%20at%202.54.55%20PM.png
