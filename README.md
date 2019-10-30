@@ -6,9 +6,10 @@ Play! framework is using to code the web app.
 
 Video Demos - Download the .MOV and check them out
 
-https://github.com/levidu/medilandaFarmApp/blob/master/IMG_1835.MOV
+https://www.screencast.com/t/4Pkvj7uitZ
 
-https://github.com/levidu/medilandaFarmApp/blob/master/IMG_1836.MOV
+https://www.screencast.com/t/2yyvanCjoe
+
 
 Kibana Dashboard
 ![Screenshot of Kibana Dashboard](https://github.com/levidu/medilandaFarmApp/blob/master/Screen%20Shot%202019-09-16%20at%202.54.55%20PM.png)
