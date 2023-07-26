@@ -1,9 +1,9 @@
 # medilandaFarmApp
-This is a semi-automated data-entry system to a food production facility in Sri Lanka. It runs hand in hand with a Raspberry Pi3 and an RFID reader. 
+A semi-automated data-entry system for a food production facility. It runs hand in hand with a Raspberry Pi3 and an RFID reader. 
 
-It calls runs a python script every time an HTML button is clicked. The person who carries the egg crate takes an RFID card and checks-in. Using selenium event listeners, all the information such as the card ID, cage number and timestamp is passed to the card. Later, the user who counts the eggs can enter the relevant data such as the egg count, the damage egg count, and place the RFID card near the reader that is attached to the RPi3. This would call the selenium object to automatically read all the information in the RFID card and fill the rest of the form automatically.
+A python script is executed every time an HTML button is clicked. An RFID card checks-in and a selenium event listener passed all the information such as the card ID, cage number and timestamp to the card. Later, the counter who counts the eggs can enter the relevant data such as the egg count, the damage egg count, and place the RFID card near the reader that is attached to the RPi3. This will call the selenium object to read all the information in the RFID card and fill the rest of the form automatically.
 
-For analytics, all the data is passed from MySQL to an Elasticsearch instance using logtash. It is scheduled to take place everyday at 6pm using the logstash cron trigger.
+For analytics, all the data is passed from MySQL to an Elasticsearch instance using logtash. It is scheduled to take place everyday at 6pm using a logstash cron trigger.
 
 The web application runs on the Play Framework.
 
