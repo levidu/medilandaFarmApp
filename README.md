@@ -1,11 +1,7 @@
 # medilandaFarmApp
-A semi-automated data-entry system for a food production facility. It runs hand in hand with a Raspberry Pi3 and an RFID reader. 
+This semi-automated data entry system is designed for a food production facility, leveraging a Raspberry Pi 3 (RPi3) and an RFID reader to streamline data collection and processing. The system operates through a Python script that is triggered each time an HTML button is clicked. When an RFID card is scanned, the system captures the card ID, cage number, and timestamp. Subsequently, during egg counting, the counter can enter the relevant data—such as egg count and damaged egg count—while placing the RFID card near the reader attached to the RPi3. This action triggers a Selenium script to read all the information from the RFID card and automatically fill in the remaining form fields.
 
-A python script is executed every time an HTML button is clicked. An RFID card checks-in and a selenium event listener passed all the information such as the card ID, cage number and timestamp to the card. Later, the counter who counts the eggs can enter the relevant data such as the egg count, the damage egg count, and place the RFID card near the reader that is attached to the RPi3. This will call the selenium object to read all the information in the RFID card and fill the rest of the form automatically.
-
-For analytics, all the data is passed from MySQL to an Elasticsearch instance using logtash. It is scheduled to take place everyday at 6pm using a logstash cron trigger.
-
-The web application runs on the Play Framework.
+For analytics, the system transfers data from MySQL to an Elasticsearch instance using Logstash, scheduled to run daily at 6 PM through a Logstash cron trigger. This setup enables the use of a Kibana dashboard to provide real-time insights and visual analytics on production metrics. The entire web application is built on the Play Framework, and video demonstrations of the system's functionality can be viewed under video demos.
 
 Video Demos:
 https://www.screencast.com/t/4Pkvj7uitZ
